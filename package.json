@@ -4,7 +4,8 @@
   "description": "Demonstrates a skeleton project for TypeScript development with Visual Studio Code.",
   "main": "build/js/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cd src && tsc",
+    "test": "./node_modules/.bin/mocha build/test"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,10 @@
     "url": "https://github.com/codesleuth/vscode-typescript-example/issues"
   },
   "homepage": "https://github.com/codesleuth/vscode-typescript-example#readme",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "tsc": "^1.20150623.0",
+    "tsd": "^0.6.3"
+  }
 }

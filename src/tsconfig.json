@@ -3,6 +3,7 @@
     "target": "ES5",
     "module": "commonjs",
     "sourceMap": true,
-    "outDir": "build/js"
+    "outDir": "../build/",
+    "removeComments": true
   }
 }

@@ -12,20 +12,42 @@
 	"version": "0.1.0",
 
 	// The command is tsc. Assumes that tsc has been installed using npm install -g typescript
-	"command": "tsc",
+	"command": "npm",
 
 	// The command is a shell script
 	"isShellCommand": true,
 
 	// Show the output window only if unrecognized errors occur.
 	"showOutput": "silent",
-
-	// args is the HelloWorld program to compile.
-	"args": [],
-
-	// use the standard tsc problem matcher to find compile problems
-	// in the output.
-	"problemMatcher": "$tsc"
+	
+	"tasks": [
+		{
+			"taskName": "build",
+			// Build is not a default script and needs to be run.
+			"args": ["run"],
+			// Make this the default build command.
+			"isBuildCommand": true,
+			// use the standard tsc problem matcher to find compile problems
+			// in the output.
+			"problemMatcher": "$tsc"
+		},
+		{
+			"taskName": "test",
+			// Make this the default test command.
+			"isTestCommand": true,
+			// Show the output window only if unrecognized errors occur.
+			"showOutput": "silent",
+			// Match on Mocha problems.
+			"problemMatcher": {
+				"owner": "mocha",
+				"pattern": {
+					"regexp": "^\\s*(\\d+)\\)\\s*(.+)\\:$",
+					"file": 1,
+					"message": 2
+				}
+			}
+		}
+	]
 }
 
 // A task runner that calls the Typescript compiler (tsc) and
