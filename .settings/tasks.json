@@ -17,7 +17,7 @@
 		{
 			"taskName": "test",
 			"isTestCommand": true,
-			"showOutput": "silent",
+			"showOutput": "always",
 			"problemMatcher": {
 				"owner": "mocha",
         "fileLocation": ["absolute"],
