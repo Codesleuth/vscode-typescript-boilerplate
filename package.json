@@ -5,7 +5,8 @@
   "main": "build/js/app.js",
   "scripts": {
     "build": "cd src && tsc",
-    "test": "./node_modules/.bin/mocha build/test"
+    "test": "mocha build/test --require source-map-support/register",
+    "clean": "rimraf build"
   },
   "repository": {
     "type": "git",
@@ -31,7 +32,11 @@
   "private": true,
   "devDependencies": {
     "mocha": "^2.2.5",
-    "tsc": "^1.20150623.0",
-    "tsd": "^0.6.3"
+    "rimraf": "^2.4.3",
+    "tsd": "^0.6.3",
+    "typescript": "^1.5.3"
+  },
+  "dependencies": {
+    "source-map-support": "^0.3.2"
   }
 }
