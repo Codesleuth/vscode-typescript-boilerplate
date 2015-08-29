@@ -1,7 +1,7 @@
 vscode-typescript-example
 =========================
 
-This project provides a skeleton structure and IDE settings files to help with TypeScript development in [Visual Studio Code][vscode] (as of build 0.7.10). The project builds all TypeScript (`.ts`) files into a `build/js` directory in the root.
+This project provides a skeleton structure and IDE settings files to help with TypeScript development in [Visual Studio Code][vscode] (as of build 0.7.10). The project builds all TypeScript (`.ts`) files into a `build` directory in the root.
 
 ## Project Structure
 The project currently provides the following features:
