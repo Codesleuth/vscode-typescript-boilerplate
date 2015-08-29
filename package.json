@@ -1,8 +1,8 @@
 {
   "name": "vscode-typescript-example",
-  "version": "0.0.1",
-  "description": "Demonstrates a skeleton project for TypeScript development with Visual Studio Code.",
-  "main": "build/js/app.js",
+  "version": "0.1.0",
+  "description": "A project skeleton for TypeScript development in Visual Studio Code.",
+  "main": "build/app.js",
   "scripts": {
     "build": "cd src && tsc",
     "test": "mocha build/test --require source-map-support/register",
