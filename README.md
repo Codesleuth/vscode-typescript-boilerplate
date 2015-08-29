@@ -40,21 +40,23 @@ This repository is ready for you to clone and start building your code around it
 ### Prerequisites
 1. You need Node.js. [Go install it][nodejsdownload]
 2. Ensure the required dependencies have been installed:
-```bash
- $ npm install
-```
-3. You will need [`tsd`][tsd] to allow the TypeScript to compile without errors. It's recommended to install this globally:
-```bash
- $ npm install tsd -g
-```
-3. Run `tsd` to install the required module type definitions defined in `tsd.json`:
-```bash
- # if installed globally (recommended)
- $ tsd install
+    ```bash
+    $ npm install
+    ```
 
- # otherwise
- $ ./node_modules/.bin/tsd
-```
+3. You will need [`tsd`][tsd] to allow the TypeScript to compile without errors. It's recommended to install this globally:
+    ```bash
+    $ npm install tsd -g
+    ```
+
+4. Run `tsd` to install the required module type definitions defined in `tsd.json`:
+    ```bash
+    # if installed globally (recommended)
+    $ tsd install
+
+    # otherwise
+    $ ./node_modules/.bin/tsd
+    ```
 
 ### Building
 1. Open VSCode and select the root of the repository as the project folder
