@@ -14,21 +14,27 @@ The project currently provides the following features:
 
 ### Project Structure
 ```
-.settings/
+.vscode/
     launch.json     # Defines launch tasks for debugging etc.
     tasks.json      # Defines tasks available e.g. build & test
+    
 custom_typings/     # Place your custom typings within this directory
     tsd.d.ts        # Custom typings should be added to this file, e.g.:
                     #   /// <reference path="mymodule.d.ts" />
+                    
 src/                # The root of all TypeScript source code
     lib/
         mymodule.ts # A sample module
+        
     test/
         app.test.ts # A sample test
+        
     _ref.d.ts       # The root type definition file.
                     #   Reference this in all your TypeScript files.
+                    
     app.ts          # The main entry point for the project.
     tsconfig.json   # TypeScript compilation settings
+    
 package.json
 README.md
 tsd.json            # TypeScript package definition file for tsd
