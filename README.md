@@ -44,18 +44,19 @@ tsd.json            # TypeScript package definition file for tsd
 This repository is ready for you to clone and start building your code around it. Simply follow the guide below.
 
 ### Prerequisites
-1. You need Node.js. [Go install it][nodejsdownload]
-2. Ensure the required dependencies have been installed:
+1. Clone, fork, or [download](/Codesleuth/vscode-typescript-boilerplate/releases) the project.
+2. You need Node.js. [Go install it][nodejsdownload]
+3. Ensure the required dependencies have been installed:
     ```bash
     $ npm install
     ```
 
-3. You will need [`tsd`][tsd] to allow the TypeScript to compile without errors. It's recommended to install this globally:
+4. You will need [`tsd`][tsd] to allow the TypeScript to compile without errors. It's recommended to install this globally:
     ```bash
     $ npm install tsd -g
     ```
 
-4. Run `tsd install` to fetch the required module type definitions defined in `tsd.json`:
+5. Run `tsd install` to fetch the required module type definitions defined in `tsd.json`:
     ```bash
     # if installed globally (recommended)
     $ tsd install
