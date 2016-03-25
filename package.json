@@ -1,21 +1,22 @@
 {
-  "name": "vscode-typescript-example",
+  "name": "vscode-typescript-boilerplate",
   "version": "0.1.0",
   "description": "A project skeleton for TypeScript development in Visual Studio Code.",
-  "main": "build/app.js",
+  "main": "build/app/app.js",
   "scripts": {
-    "build": "cd src && tsc",
-    "test": "mocha build/test --require source-map-support/register",
+    "build": "tsc -p src/ || true",
+    "test": "mocha build/test --require source-map-support/register || true",
     "clean": "rimraf build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesleuth/vscode-typescript-example.git"
+    "url": "git+https://github.com/codesleuth/vscode-typescript-boilerplate.git"
   },
   "keywords": [
     "vscode",
     "typescript",
     "example",
+    "boilerplate",
     "project",
     "skeleton",
     "debug",
@@ -26,17 +27,18 @@
   "author": "David Wood <david.p.wood@gmail.com> (http://www.codesleuth.co.uk/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codesleuth/vscode-typescript-example/issues"
+    "url": "https://github.com/codesleuth/vscode-typescript-boilerplate/issues"
   },
-  "homepage": "https://github.com/codesleuth/vscode-typescript-example#readme",
+  "homepage": "https://github.com/codesleuth/vscode-typescript-boilerplate#readme",
   "private": true,
   "devDependencies": {
-    "mocha": "^2.2.5",
-    "rimraf": "^2.4.3",
-    "tsd": "^0.6.3",
-    "typescript": "^1.5.3"
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.2",
+    "sinon": "^1.17.3",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9"
   },
   "dependencies": {
-    "source-map-support": "^0.3.2"
+    "source-map-support": "^0.4.0"
   }
 }

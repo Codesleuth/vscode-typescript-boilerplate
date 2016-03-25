@@ -1,6 +1,6 @@
 import 'source-map-support/register'
-import mymodule = require('./lib/mymodule')
+import {SayGoodbye} from './mymodule'
 
 console.log('Hey there, VSCode user!')
 
-mymodule.SayGoodbye();
+SayGoodbye(console.log)

@@ -3,16 +3,13 @@
 	"command": "npm",
 	"isShellCommand": true,
 	"showOutput": "silent",
+  "args": ["run"],
 	
 	"tasks": [
 		{
 			"taskName": "build",
-			"args": ["run"],
 			"isBuildCommand": true,
-			"problemMatcher": {
-        "base": "$tsc",
-        "fileLocation": ["relative", "${workspaceRoot}/src"]
-      }
+			"problemMatcher": "$tsc"
 		},
 		{
 			"taskName": "test",

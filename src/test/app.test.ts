@@ -1,6 +1,4 @@
-/// <reference path="../_ref.d.ts" />
-
-import assert = require('assert')
+import * as assert from 'assert'
 
 describe('Some suite', () => {
 	
