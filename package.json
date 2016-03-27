@@ -4,6 +4,7 @@
   "description": "A project skeleton for TypeScript development in Visual Studio Code.",
   "main": "build/app/app.js",
   "scripts": {
+    "postinstall": "cd src && typings install",
     "build": "tsc -p src/ || true",
     "test": "mocha build/test --require source-map-support/register || true",
     "clean": "rimraf build"
