@@ -9,7 +9,7 @@ The project currently provides the following features:
 * Mocha test structure, which can be run with Code or `npm test`, also with source maps
 * Error detection and navigation within Code for both build and test problems (see [Code Tasks](https://code.visualstudio.com/Docs/editor/tasks))
 * Debug settings (_currently a bug is preventing this from being reliable_)
-* Type definitions provided by [`tsd`][tsd]
+* Type definitions provided by [`typings`][typings]
 * Custom type definitions ready for your own declarations
 
 ### Project Structure
