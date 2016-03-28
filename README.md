@@ -45,7 +45,7 @@ README.md
 This repository is ready for you to clone and start building your code around it. Simply follow the guide below.
 
 ### Prerequisites
-1. Clone, fork, or [download](/Codesleuth/vscode-typescript-boilerplate/releases) the project.
+1. Clone, fork, or [download](//github.com/Codesleuth/vscode-typescript-boilerplate/releases) the project.
 2. You need Node.js. [Go install it][nodejsdownload]
 3. Ensure the required dependencies have been installed:
     ```bash
