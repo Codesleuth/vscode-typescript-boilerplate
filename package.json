@@ -34,11 +34,11 @@
   "homepage": "https://github.com/codesleuth/vscode-typescript-boilerplate#readme",
   "private": true,
   "devDependencies": {
-    "mocha": "^2.4.5",
+    "mocha": "^2.5.3",
     "rimraf": "^2.5.2",
-    "sinon": "^1.17.3",
-    "typescript": "^1.8.9",
-    "typings": "^0.7.9"
+    "sinon": "^1.17.4",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
   },
   "dependencies": {
     "source-map-support": "^0.4.0"
