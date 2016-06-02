@@ -71,7 +71,7 @@ This repository is ready for you to clone and start building your code around it
 ### Building
 1. Open VSCode, hit <kbd>CTRL</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>, type `open folder` and select the root of this repository
 2. Build with one of the following shortcuts:
- * Press <kbd>CTRL</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> to build, which is declared in the `.settings/tasks.json` file with the `isBuildCommand` marker
+ * Press <kbd>CTRL</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> to build, which is declared in the `.vscode/tasks.json` file with the `isBuildCommand` marker
  * Press <kbd>CTRL</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and select the `Tasks: Run Build Task` option
  * Press <kbd>CTRL</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>, delete the `>` and type `task build`
 3. If there were no errors, you should see a new directory, `build`, in the root with the following content:
@@ -90,7 +90,7 @@ build/
 ```
 
 ### Error Navigation
-After building or testing, errors are captured (defined in the `.settings/tasks.json` file) and can be viewed with <kbd>CTRL</kbd>/<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd>.
+After building or testing, errors are captured (defined in the `.vscode/tasks.json` file) and can be viewed with <kbd>CTRL</kbd>/<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd>.
 
 Your `.ts` files have been compiled to `.js` files within the `build` directory, and each should have a `.js.map` _sourcemap_ file alongside it to allow stack traces to correctly report the line in the original file. See [this StackOverflow article][sourcemapquestion] for an overview of what a sourcemap is.
 
