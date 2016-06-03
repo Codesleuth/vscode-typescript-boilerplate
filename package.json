@@ -1,6 +1,6 @@
 {
   "name": "vscode-typescript-boilerplate",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A project skeleton for TypeScript development in Visual Studio Code.",
   "main": "build/app/app.js",
   "scripts": {
