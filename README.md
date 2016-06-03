@@ -15,27 +15,27 @@ The project currently provides the following features:
 ### Project Structure
 ```
 .vscode/
-    launch.json     # Defines launch tasks for debugging etc.
-    tasks.json      # Defines tasks available e.g. build & test
+    launch.json          # Defines launch tasks for debugging etc.
+    tasks.json           # Defines tasks available e.g. build & test
 
-build/              # The output directory of JavaScript files
-                    # when built from TypeScript
+build/                   # The output directory of JavaScript files
+                         # when built from TypeScript
                     
-src/                # The root of all TypeScript source code
+src/                     # The root of all TypeScript source code
     app/
-        app.ts      # The main entry point for the project.
-        mymodule.ts # A sample module
+        app.ts           # The main entry point for the project.
+        mymodule.ts      # A sample module
         
     test/
-        app.test.ts # A sample test
-        app.test.ts # A sample module test with sinon spies
+        app.test.ts      # A sample test
+        mymodule.test.ts # A sample module test with sinon spies
     
-    typings/        # Typings downloaded using the typings command
+    typings/             # Typings downloaded using the typings command
                     
-    custom.d.ts     # An example of custom ambient typings
+    custom.d.ts          # An example of custom ambient typings
     
-    tsconfig.json   # TypeScript compilation settings
-    typings.json    # TypeScript package definition file for typings
+    tsconfig.json        # TypeScript compilation settings
+    typings.json         # TypeScript package definition file for typings
     
 package.json
 README.md
