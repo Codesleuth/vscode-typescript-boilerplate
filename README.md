@@ -80,19 +80,20 @@ This repository is ready for you to clone and start building your code around it
    * Press <kbd>CTRL</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and select the `Tasks: Run Build Task` option
    * Press <kbd>CTRL</kbd>/<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>, delete the `>` and type `task build`
 1. If there were no errors, you should see a new directory, `build`, in the root with the following content:
-   ```tree
-   build/
-       app/
-           app.js
-           app.js.map
-           mymodule.js
-           mymodule.js.map
-       test/
-           app.test.js
-           app.test.js.map
-           mymodule.test.js
-           mymodule.test.js.map
-   ```
+
+```tree
+build/
+    app/
+        app.js
+        app.js.map
+        mymodule.js
+        mymodule.js.map
+    test/
+        app.test.js
+        app.test.js.map
+        mymodule.test.js
+        mymodule.test.js.map
+```
 
 ### Error Navigation
 
